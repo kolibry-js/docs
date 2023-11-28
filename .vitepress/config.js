@@ -1,0 +1,283 @@
+// @ts-check
+
+const Guide = [
+  {
+    text: 'Why Kolibry',
+    link: '/guide/why',
+  },
+  {
+    text: 'Getting Started',
+    link: '/guide/',
+  },
+  {
+    text: 'Installation',
+    link: '/guide/install',
+  },
+  {
+    text: 'Markdown Syntax',
+    link: '/guide/syntax',
+  },
+  {
+    text: 'Navigation',
+    link: '/guide/navigation',
+  },
+  {
+    text: 'Animations',
+    link: '/guide/animations',
+  },
+  {
+    text: 'Exporting',
+    link: '/guide/exporting',
+  },
+  {
+    text: 'Static Hosting',
+    link: '/guide/hosting',
+  },
+  {
+    text: 'Record Presentation',
+    link: '/guide/recording',
+  },
+  {
+    text: 'Presenter Mode',
+    link: '/guide/presenter-mode',
+  },
+  {
+    text: 'Drawing & Annotations',
+    link: '/guide/drawing',
+  },
+  {
+    text: 'Editor Integrations',
+    link: '/guide/editors',
+  },
+  {
+    text: 'FAQ',
+    link: '/guide/faq',
+  },
+]
+
+const Theme = [
+  {
+    text: 'Use Theme',
+    link: '/themes/use',
+  },
+  {
+    text: 'Theme Gallery',
+    link: '/themes/gallery',
+  },
+  {
+    text: 'Write a Theme',
+    link: '/themes/write-a-theme',
+  },
+]
+
+const Addon = [
+  {
+    text: 'Use Addon',
+    link: '/addons/use',
+  },
+  {
+    text: 'Write an Addon',
+    link: '/addons/write-an-addon',
+  },
+]
+
+const Translations = [
+  {
+    text: 'English',
+  },
+  {
+    text: 'Deutsch',
+    link: 'https://de.kolibry.dev{{pathname}}',
+  },
+]
+
+const Customizations = [
+  {
+    text: 'Customizations',
+    link: '/custom/',
+  },
+  {
+    text: 'Directory Structure',
+    link: '/custom/directory-structure',
+  },
+  {
+    text: 'Fonts',
+    link: '/custom/fonts',
+  },
+  {
+    text: 'Highlighters',
+    link: '/custom/highlighters',
+  },
+  {
+    text: 'Configure Vue',
+    link: '/custom/config-vue',
+  },
+  {
+    text: 'Configure Vite',
+    link: '/custom/config-vite',
+  },
+  {
+    text: 'Configure UnoCSS',
+    link: '/custom/config-unocss',
+  },
+  {
+    text: 'Configure Windi CSS',
+    link: '/custom/config-windicss',
+  },
+  {
+    text: 'Configure Monaco',
+    link: '/custom/config-monaco',
+  },
+  {
+    text: 'Configure KaTeX',
+    link: '/custom/config-katex',
+  },
+  {
+    text: 'Configure Mermaid',
+    link: '/custom/config-mermaid',
+  },
+  {
+    text: 'Configure Parser',
+    link: '/custom/config-parser',
+  },
+  {
+    text: 'Configure Shortcuts',
+    link: '/custom/config-shortcuts',
+  },
+  {
+    text: 'Vue Global Context',
+    link: '/custom/vue-context',
+  },
+  {
+    text: 'Global Layers',
+    link: '/custom/global-layers',
+  }
+]
+
+const BuiltIn = [
+  {
+    text: 'Components',
+    link: '/builtin/components',
+  },
+  {
+    text: 'Layouts',
+    link: '/builtin/layouts',
+  },
+]
+
+const Resources = [
+  {
+    text: 'Showcases',
+    link: '/showcases',
+  },
+  {
+    text: 'Learning Resources',
+    link: '/resources/learning',
+  },
+  {
+    text: 'Curated Covers',
+    link: '/resources/covers',
+  },
+]
+
+const slidebars = [
+  {
+    text: 'Guide',
+    children: Guide,
+  },
+  {
+    text: 'Themes',
+    children: Theme,
+  },
+  {
+    text: 'Addons',
+    children: Addon,
+  },
+  {
+    text: 'Customizations',
+    children: Customizations,
+  },
+  {
+    text: 'Built-in',
+    children: BuiltIn,
+  },
+]
+
+/**
+ * @type {import('vitepress').UserConfig}
+ */
+module.exports = {
+  title: 'Kolibry',
+  description: 'Presentation slides for developers',
+  head: [
+    ['link', { rel: 'icon', type: 'image/png', href: '/favicon.png' }],
+    ['meta', { name: 'author', content: 'Dennis Ollhoff' }],
+    ['meta', { property: 'og:title', content: 'Kolibry' }],
+    ['meta', { property: 'og:image', content: 'https://kolibry.dev/og-image.png' }],
+    ['meta', { property: 'og:description', content: 'Presentation slides for developers' }],
+    ['meta', { name: 'twitter:card', content: 'summary_large_image' }],
+    ['meta', { name: 'twitter:creator', content: '@nyxb0' }],
+    ['meta', { name: 'twitter:image', content: 'https://kolibry.dev/og-image.png' }],
+    ['link', { rel: 'dns-prefetch', href: 'https://fonts.gstatic.com' }],
+    ['link', { rel: 'preconnect', crossorigin: 'anonymous', href: 'https://fonts.gstatic.com' }],
+    ['link', { href: 'https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@200;400;500&family=Inter:wght@200;400;500;600', rel: 'stylesheet' }],
+  ],
+  themeConfig: {
+    repo: 'kolibry-js/docs',
+    logo: '/logo.svg',
+    docsBranch: 'main',
+    editLinks: true,
+    editLinkText: 'Suggest changes to this page',
+
+    algolia: {
+      appId: 'LCBV6MIFS6',
+      apiKey: '1ff173fe73b20edc962c1c24c0b1c160',
+      indexName: 'kolibry',
+      searchParameters: {
+        // for translations maintainers: change the filter to your locale code (subdomain name)
+        facetFilters: ['language:en']
+      }
+    },
+
+    nav: [
+      {
+        text: 'Guide',
+        items: Guide,
+      },
+      {
+        text: 'Theme',
+        items: Theme,
+      },
+      {
+        text: 'Addon',
+        items: Addon,
+      },
+      {
+        text: 'Customize',
+        items: Customizations,
+      },
+      {
+        text: 'Built-in',
+        items: BuiltIn,
+      },
+      {
+        text: 'Resources',
+        items: Resources,
+      },
+      {
+        text: 'English',
+        items: Translations,
+      },
+    ],
+
+    sidebar: {
+      '/guide/': slidebars,
+      '/themes/': slidebars,
+      '/addons/': slidebars,
+      '/custom/': slidebars,
+      '/builtin/': slidebars,
+      '/resources/': slidebars,
+      '/': slidebars,
+    },
+  },
+}
