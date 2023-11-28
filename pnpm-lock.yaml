@@ -23,17 +23,17 @@ devDependencies:
     specifier: ^2.1.76
     version: 2.2.149
   '@kolibry/client':
-    specifier: 0.0.6-docs
-    version: 0.0.6-docs(typescript@4.9.5)(vite@3.2.7)
+    specifier: 0.0.7-docs
+    version: 0.0.7-docs(typescript@4.9.5)(vite@3.2.7)
   '@kolibry/parser':
-    specifier: 0.0.6-docs
-    version: 0.0.6-docs
+    specifier: 0.0.7-docs
+    version: 0.0.7-docs
   '@kolibry/theme-default':
     specifier: ^0.0.2
     version: 0.0.2
   '@kolibry/types':
-    specifier: 0.0.6-docs
-    version: 0.0.6-docs
+    specifier: 0.0.7-docs
+    version: 0.0.7-docs
   '@types/fs-extra':
     specifier: ^9.0.13
     version: 9.0.13
@@ -618,12 +618,12 @@ packages:
     dev: true
     optional: true
 
-  /@kolibry/client@0.0.6-docs(typescript@4.9.5)(vite@3.2.7):
-    resolution: {integrity: sha512-ilzACwZOx15g0kFQvbC8nfYCP87fEcw3DjedkuupEmluiz5xQCLWUShkA6qKYhcaPWm44RQE5LzUl9NxDDvkaQ==}
+  /@kolibry/client@0.0.7-docs(typescript@4.9.5)(vite@3.2.7):
+    resolution: {integrity: sha512-sKdKF2hLvRz+6ioRN8fvfiCyMDoI1zwcUmHgNf4f83hVV1CKoKzQq7/kS9S4SbAFy1BwKcnXOzCMcP1IZnjTHw==}
     engines: {node: '>=14.0.0'}
     dependencies:
-      '@kolibry/parser': 0.0.6-docs
-      '@kolibry/types': 0.0.6-docs
+      '@kolibry/parser': 0.0.7-docs
+      '@kolibry/types': 0.0.7-docs
       '@nyxb/utils': 0.0.3
       '@unocss/reset': 0.42.1
       '@vueuse/core': 8.9.4(vue@3.3.9)
@@ -657,11 +657,11 @@ packages:
       - vite
     dev: true
 
-  /@kolibry/parser@0.0.6-docs:
-    resolution: {integrity: sha512-DliSho1MV+1tWi81hyG1wrk98gHE09ZgnTyTKy4sKlXXTqp3ktcmsliz96IKzLZ+PHHqZjo8KARdiAe/uEhMSg==}
+  /@kolibry/parser@0.0.7-docs:
+    resolution: {integrity: sha512-lxwazBH+KoQJfly1XoVm4oX+4nS6vdylRkCr2ENEIXmUvumrHOF/F3WY9vycjtYgdMA4wdsaBu3jtjJDeEzkUw==}
     engines: {node: '>=14.0.0'}
     dependencies:
-      '@kolibry/types': 0.0.6-docs
+      '@kolibry/types': 0.0.7-docs
       js-yaml: 4.1.0
     dev: true
 
@@ -680,8 +680,8 @@ packages:
     engines: {node: '>=18.0.0'}
     dev: true
 
-  /@kolibry/types@0.0.6-docs:
-    resolution: {integrity: sha512-7xSGgQcfOxYA0cii2Ibf7W5Y0N/VqH6daqjO2qO271OZHUm7E33BC9w9w7VxEmHduXZFVht+FvqDF5kbXtoeFA==}
+  /@kolibry/types@0.0.7-docs:
+    resolution: {integrity: sha512-NgNBQoRu1G0CpO5ee5eUSlh/prNwHUIqaNIKkkd7Zs5I2nHHFehkWVNhgy8I+5LHoaqBGtRCC9c90i/BY472jQ==}
     engines: {node: '>=14.0.0'}
     dev: true
 

@@ -8,10 +8,10 @@
   },
   "devDependencies": {
     "@iconify/json": "^2.1.76",
-    "@kolibry/client": "0.0.6-docs",
-    "@kolibry/parser": "0.0.6-docs",
+    "@kolibry/client": "0.0.7-docs",
+    "@kolibry/parser": "0.0.7-docs",
     "@kolibry/theme-default": "^0.0.2",
-    "@kolibry/types": "0.0.6-docs",
+    "@kolibry/types": "0.0.7-docs",
     "@types/fs-extra": "^9.0.13",
     "@types/node": "^18.0.3",
     "fs-extra": "^10.1.0",
