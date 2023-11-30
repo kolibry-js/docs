@@ -124,7 +124,10 @@ export const official: ThemeInfo[] = [
       'dark',
     ],
   },
-  // Add yours here!
+]
+
+export const community: ThemeInfo[] = [
+   // Add yours here!
   {
    id: '',
    link: 'https://github.com/kolibry-js/docs/edit/main/.vitepress/themes.ts',
@@ -137,7 +140,4 @@ export const official: ThemeInfo[] = [
      '/theme-placeholder.png',
    ],
  },
-]
-
-export const community: ThemeInfo[] = [
 ]
