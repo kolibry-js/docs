@@ -1,6 +1,6 @@
 # Editor Support
 
-Since Kolibry is using Markdown as the source entry, you can use ANY editors you love to write it.
+Kolibry utilizes Markdown as the source format, allowing you to use any editor of your choice for writing.
 
 If you want some high-level management to your slides, we have provided the following editor integrations for you!
 
@@ -39,5 +39,3 @@ The VS Code extension provides some features to help you better organize your sl
 - Convert Markdown to HTML
 
 ![](https://user-images.githubusercontent.com/11247099/116809994-cc2caa00-ab73-11eb-879f-60585747c3c9.png)
-
-<Tweet id="1395333405345148930" />

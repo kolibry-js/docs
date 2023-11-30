@@ -12,8 +12,6 @@ Configuring the markdown parser used in step 2 can be done by [configuring Vite 
 
 ## Preparser Extensions
 
-> Available since v0.37.0
-
 :::warning
 Important: when modifying the preparser configuration, you need to stop and start kolibry again (restart might not be sufficient).
 :::

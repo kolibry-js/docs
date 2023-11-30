@@ -1,12 +1,10 @@
 # Drawing & Annotations
 
-> Available since v0.23
-
 We have [drauuIt](https://github.com/nyxb/drauu-it) built-in for drawing and annotation that could enhance your presentation further.
 
 To start, click the <carbon-pen class="inline-icon-btn"/> icon in the toolbar and start drawing. It's also available in the [Presenter Mode](/guide/presenter-mode). Drawings and annotations you created will be **synced up** automatically across all instances in real-time.
 
-<Tweet id="1424027510342250499" />
+![](../public/gifs/draw.gif)
 
 ## Use with Stylus Pen
 

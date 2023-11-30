@@ -1,7 +1,5 @@
 # Global Layers
 
-> Available since v0.17
-
 Global layers allow you to have custom components that **persistent** across slides. This could be useful for having footers, cross-slides animations, global effects, etc.
 
 Kolibry provides three layers for this usage, create `global-top.vue`, `global-bottom.vue` or `custom-nav-controls.vue` under your project root and it will pick up automatically.

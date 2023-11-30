@@ -2,9 +2,9 @@
 
 ## Grids
 
-Since Kolibry is based on the Web, you can apply any grid layouts as you want. [CSS Grids](https://nyxb.blog/en/css/), [flexboxes](https://nyxb.blog/en/css/an-interactive-guide-to-flexbox). 
+Kolibry, being web-based, allows for the application of various grid layouts, including [CSS Grids](https://nyxb.blog/en/css/) and [flexboxes](https://nyxb.blog/en/css/an-interactive-guide-to-flexbox).
 
-Since we have [UnoCSS](https://unocss.dev/) built-in, here is one simple way for you to reference:
+How to access [UnoCSS](https://unocss.dev/):
 
 ```html
 <div class="grid grid-cols-2 gap-4">
@@ -112,7 +112,7 @@ Changing the canvas' actual size will scale all your contents(text, images, comp
 ```yaml
 ---
 # default: 980
-# since the canvas gets smaller, the visual size will become larger
+# As the canvas size decreases, the visual size will appear larger.
 canvasWidth: 800
 ---
 ```

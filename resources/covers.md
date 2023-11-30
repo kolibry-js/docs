@@ -7,8 +7,8 @@ We curated a few cover images to demonstrate our starter template.
 ```yaml
 ---
 # random image from the curated collection
-background: https://source.unsplash.com/collection/94734566/1920x1080
+background: https://source.unsplash.com/collection/8723350/1920x1080
 ---
 ```
 
-If you enjoy any of them, check out our [Unsplash collection](https://unsplash.com/collections/94734566/kolibry) and find out their authors.
+If you enjoy any of them, check out the [Unsplash collections](https://unsplash.com/s/collections/colourful) and find out their authors.

@@ -2,7 +2,7 @@
 
 <Environment type="node" />
 
-[UnoCSS](https://unocss.dev) is now the default CSS framework for Kolibry since v0.42.0. UnoCSS is an fast atomic CSS engine that has full flexibility and extensibility.
+[UnoCSS](https://unocss.dev) is the default CSS framework for Kolibry. UnoCSS is an fast atomic CSS engine that has full flexibility and extensibility.
 
 By default, Kolibry enables the following presets out-of-box:
 

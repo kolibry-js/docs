@@ -12,7 +12,7 @@ Read more about [how to use a theme](/themes/use), or [how to write your own](/t
 
 ## Community Themes
 
-Here are the curated themes made by the community.
+Here are the  coming soon curated themes made by the community.
 
 <!-- Edit in ./docs/.vitepress/themes.ts -->
 <ClientOnly>

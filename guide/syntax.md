@@ -87,7 +87,6 @@ Refer to [customization](/custom/) for more details.
 > This is a page with the layout `center` and a background image.
 > ~~~
 >
-> (Available since v0.44.0)
 
 ## Code Blocks
 
@@ -352,8 +351,6 @@ You can style the icons just like other HTML elements. For example:
 
 ## Slots
 
-> Available since v0.18
-
 Some layouts can provide multiple contributing points using [Vue's named slots](https://v3.vuejs.org/guide/component-slots.html).
 
 For example, in [`two-cols` layout](https://github.com/kolibry-js/kolibry/blob/main/packages/client/layouts/two-cols.vue), you can have two columns left (`default` slot) and right (`right` slot) side by side.
@@ -450,8 +447,6 @@ Learn more about [frontmatter configurations](/custom/#frontmatter-configures).
 
 Kolibry comes with LaTeX support out-of-box, powered by [KaTeX](https://katex.org/).
 
-<Tweet id="1392246507793915904" />
-
 ### Inline
 
 Surround your LaTeX with a single `$` on each side for inline rendering.
@@ -483,8 +478,6 @@ $$
 Learn more: [Demo](https://kolibry.dev/demo/starter/8) | [KaTeX](https://katex.org/) | [`markdown-it-katex`](https://github.com/waylonflinn/markdown-it-katex)
 
 ### LaTex line highlighting
-
-> Available since v0.43.1
 
 To highlight specific lines, simply add line numbers within bracket `{}`. Line numbers start counting from 1 by default.
 
@@ -527,8 +520,6 @@ C -->|Two| E[Result 2]
 Learn more: [Demo](https://kolibry.dev/demo/starter/9) | [Mermaid](https://mermaid-js.github.io/mermaid)
 
 ## Multiple Entries
-
-> Available since v0.15
 
 You can split your `slides.md` into multiple files and organize them as you want.
 
@@ -620,8 +611,6 @@ src: ./content.md
 ```
 
 ## MDC Syntax
-
-> Available since v0.43.0
 
 Kolibry has and experimental support for [MDC (Markdown Components) Syntax](https://content.nuxtjs.org/guide/writing/mdc) powered by [`markdown-it-mdc`](https://github.com/antfu/markdown-it-mdc).
 

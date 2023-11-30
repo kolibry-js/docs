@@ -116,8 +116,6 @@ clicks: 3
 
 ### Enter & Leave
 
-> Available since v0.43.0
-
 You can also specify the enter and leave index for the `v-click` directive by passing an array. The end index is exclusive.
 
 ```md
@@ -227,8 +225,6 @@ Learn mode: [Demo](https://kolibry.dev/demo/starter/7) | [@vueuse/motion](https:
 
 <div id="pages-transitions" />
 
-> Available since v0.39.0
-
 Kolibry supports slide transitions out of the box. You can enable it by setting the `transition` frontmatter option:
 
 ```md
@@ -250,8 +246,6 @@ This will give you a nice sliding effects on slide switching. Setting it in the 
 - `view-transition` - Slides with the view transitions API
 
 ### View Transitions
-
-> Available since v0.43.0
 
 The **View Transitions API** provides a mechanism for easily creating animated transitions between different DOM states. Learn more how it works in [View Transitions API - MDN Web Docs - Mozilla](https://developer.mozilla.org/en-US/docs/Web/API/View_Transitions_API).
 

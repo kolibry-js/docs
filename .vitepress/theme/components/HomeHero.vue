@@ -33,7 +33,7 @@
           <div class="mx-auto">
             <p>or try it now</p>
             <div class="language-bash mt-2">
-              <pre><code><span class="opacity-50">$ </span><span class="token function">npm init</span> <span class="token text-[#408c9e] font-500">kolibry</span></code></pre>
+              <pre><code><span class="opacity-50">$ </span><span class="token function">npm init</span> <span class="token text-[#9945FF] font-500">kolibry</span></code></pre>
             </div>
           </div>
         </div>
@@ -148,7 +148,7 @@ const showHero = computed(() => {
 }
 
 .action :deep(.item) {
-  color: #fff;
+  color: #000;
   font-size: 1.2rem;
   font-weight: 500;
   text-decoration: none;
@@ -165,10 +165,10 @@ const showHero = computed(() => {
 }
 
 .action.alt {
-  background-color: #476582;
+  background-color: #9945FF;
 }
 
 .action.alt:hover {
-  background-color: #304a64;
+  background-color: #5901c4;
 }
 </style>

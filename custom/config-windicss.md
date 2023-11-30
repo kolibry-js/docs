@@ -2,10 +2,7 @@
 
 <Environment type="node" />
 
-::: warning
-Since Kolibry v0.42.0, [UnoCSS](/custom/config-unocss) become the default CSS framework for Kolibry.
-
-You can still use Windi CSS by setting `css: windicss` in the frontmatter.
+You can still use[UnoCSS](/custom/config-unocss)
 ```md
 ---
 css: windicss

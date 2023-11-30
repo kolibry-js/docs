@@ -45,8 +45,6 @@ $ kolibry export --dark
 
 ### Export Clicks Steps
 
-> Available since v0.21
-
 By default, Kolibry exports one page per slide with clicks animations disabled. If you want export slides with multiple steps into multiple pages, pass the `--with-clicks` option.
 
 ```bash
@@ -62,8 +60,6 @@ $ kolibry export --range 1,4-5,6
 ```
 
 ### PDF outline
-
-> Available since v0.36.10
 
 You can generate the PDF outline by passing the `--with-toc` option.
 
@@ -117,8 +113,6 @@ $ kolibry export *.md
 In this case, each input file will generate its own PDf file.
 
 ## Presenter notes
-
-> Available since v0.36.8
 
 Export only the presenter notes (the last comment block for each slide) into a text document in PDF.
 

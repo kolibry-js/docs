@@ -50,8 +50,6 @@ $ npx kolibry
 
 ## Install Globally
 
-> Available since v0.14
-
 You can install Kolibry globally with the following command
 
 ```bash

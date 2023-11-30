@@ -21,8 +21,7 @@ const docsearch$ = docsearch.default ?? docsearch
 type DocSearchProps = Parameters<typeof docsearch$>[0]
 
 function initialize(userOptions: any) {
-  // note: multi-lang search support is removed since the theme
-  // doesn't support multiple locales as of now.
+   // Note: Multi-language search support has been removed, as the theme currently does not support multiple locales.
   const options = Object.assign<{}, {}, DocSearchProps>({}, userOptions, {
     container: '#docsearch',
 

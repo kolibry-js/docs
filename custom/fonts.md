@@ -1,7 +1,5 @@
 # Fonts
 
-> Available since v0.20
-
 While you can use HTML and CSS to custom the fonts and style for your slides as you want, Kolibry also provides a convenient way to use them effortlessly.
 
 In your frontmatter, configure as following
@@ -11,7 +9,7 @@ In your frontmatter, configure as following
 fonts:
   # basically the text
   sans: 'Robot'
-  # use with `font-serif` css class from windicss
+  # use with `font-serif` css class from UnoCSS
   serif: 'Robot Slab'
   # for code blocks, inline code, etc.
   mono: 'Fira Code'

@@ -107,6 +107,4 @@ themeConfig:
 
 ### `$nav`
 
-> Available since v0.43.0
-
 A shorthand of `$kolibry.nav`.

@@ -127,24 +127,4 @@ export const official: ThemeInfo[] = [
 ]
 
 export const community: ThemeInfo[] = [
-  {
-    id: 'kolibry-theme-flayyer',
-    name: 'Flayyer',
-    description: 'This theme is inspired by the layout of Flayyer and the way that it works.',
-    author: {
-      name: 'Daniel Esteves',
-      link: 'https://github.com/danestves',
-    },
-    repo: 'https://github.com/danestves/kolibry-theme-flayyer',
-    previews: [
-      'https://i.imgur.com/grKiGIK.png',
-      'https://i.imgur.com/tAvcf5S.png',
-      'https://i.imgur.com/mj42LcL.png',
-      'https://i.imgur.com/41QWv3c.png',
-    ],
-    tags: [
-      'dark',
-      'light',
-    ],
-  },
 ]

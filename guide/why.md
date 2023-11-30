@@ -8,13 +8,13 @@ When working with WYSIWYG editors, it is easy to get distracted by the styling o
 
 ## Kolibry
 
-![](/screenshots/cover.png)
+![](/screenshots/cover.png) ![Alt text]
 
 Here are a few of the coolest features of Kolibry:
 
 ## Markdown-based
 
-Kolibry uses an extended Markdown format to store and organize your slides in a single plain text file. This lets you focus on making the content. And since the content and styles are separated, this also made it possible to switch between different themes effortlessly.
+Kolibry uses an extended Markdown format to store and organize your slides in a single plain text file, allowing you to focus on creating content. The separation of content and styles enables effortless switching between different themes.
 
 Learn more about [Kolibry's Markdown Syntax](/guide/syntax).
 
@@ -63,9 +63,3 @@ Playing around with Kolibry will tell you more than a thousand words. You are ju
 ```bash
 $ npm init kolibry
 ```
-
-Or have a quick preview of it:
-
-<div class="aspect-9/16 relative">
-<iframe class="rounded w-full shadow-md border-none" src="https://www.youtube.com/embed/eW7v-2ZKZOU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>

@@ -111,8 +111,6 @@ export default defineMonacoSetup((monaco) => {
 
 ## Configure the Editor
 
-> Available since v0.43.0
-
 If you would like to customize the Monaco editor you may pass an `editorOptions` object that matches the [Monaco IEditorOptions](https://microsoft.github.io/monaco-editor/docs.html#interfaces/editor.IEditorOptions.html) definition.
 
 ~~~ts

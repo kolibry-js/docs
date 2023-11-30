@@ -56,8 +56,6 @@ Theme contribution points follow the same conventions as local customization, pl
 
 ## Default Configurations
 
-> Available since v0.19
-
 A theme can provide default [configurations](/custom/#frontmatter-configures) via `package.json`.
 
 ```json

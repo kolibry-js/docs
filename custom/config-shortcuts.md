@@ -1,9 +1,5 @@
 # Configure Shortcuts
 
-> Available since v0.20
-
-> Since v0.35.6 (excluded), you decide which base shortcuts to keep (see `...base,` below).
-
 <Environment type="client" />
 
 ## Getting started
