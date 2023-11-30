@@ -208,13 +208,13 @@ const slidebars = [
  */
 module.exports = {
   title: 'Kolibry',
-  description: 'Presentation slides for developers',
+  description: 'Developer-Focused Presentation Slides',
   head: [
     ['link', { rel: 'icon', type: 'image/png', href: '/favicon.png' }],
     ['meta', { name: 'author', content: 'Dennis Ollhoff' }],
     ['meta', { property: 'og:title', content: 'Kolibry' }],
     ['meta', { property: 'og:image', content: 'https://kolibry.dev/og-image.png' }],
-    ['meta', { property: 'og:description', content: 'Presentation slides for developers' }],
+    ['meta', { property: 'og:description', content: 'Developer-Focused Presentation Slides' }],
     ['meta', { name: 'twitter:card', content: 'summary_large_image' }],
     ['meta', { name: 'twitter:creator', content: '@nyxb0' }],
     ['meta', { name: 'twitter:image', content: 'https://kolibry.dev/og-image.png' }],
