@@ -25,4 +25,15 @@ export const showcases: ShowCaseInfo[] = [
     at: 'VueDay 2021',
     datetime: '2021-04-29',
   },
+  // Add yours here!
+  {
+   title: 'Yours?',
+   author: {
+     name: '',
+   },
+   at: 'Submit your talk/presentation to be list here!',
+   slidesLink: 'https://github.com/kolibry-js/docs/edit/main/.vitepress/showcases.ts',
+   cover: `${import.meta.env.BASE_URL}theme-placeholder.png`,
+   datetime: '2023-11-30',
+ },
 ]

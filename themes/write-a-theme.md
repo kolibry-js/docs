@@ -139,7 +139,7 @@ If the theme is relying on a specific feature of Kolibry that are newly introduc
 // package.json
 {
   "engines": {
-    "kolibry": ">=0.19.3"
+    "kolibry": ">=0.0.10"
   }
 }
 ```

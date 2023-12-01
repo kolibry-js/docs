@@ -61,7 +61,7 @@ If the addon is relying on a specific feature of Kolibry that are newly introduc
 // package.json
 {
   "engines": {
-    "kolibry": ">=0.32.1"
+    "kolibry": ">=0.0.10"
   }
 }
 ```
