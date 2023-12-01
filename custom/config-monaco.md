@@ -91,17 +91,17 @@ If you want to load custom themes:
 import { defineMonacoSetup } from '@kolibry/types'
 
 // change to your themes
-import dark from 'theme-vitesse/themes/vitesse-dark.json'
-import light from 'theme-vitesse/themes/vitesse-light.json'
+import dark from 'theme-lumos/themes/lumos-dark.json'
+import light from 'theme-lumos/themes/lumos-light.json'
 
 export default defineMonacoSetup((monaco) => {
-  monaco.editor.defineTheme('vitesse-light', light as any)
-  monaco.editor.defineTheme('vitesse-dark', dark as any)
+  monaco.editor.defineTheme('lumos-light', light as any)
+  monaco.editor.defineTheme('lumos-dark', dark as any)
 
   return {
     theme: {
-      light: 'vitesse-light',
-      dark: 'vitesse-dark',
+      light: 'lumos-light',
+      dark: 'lumos-dark',
     },
   }
 })
