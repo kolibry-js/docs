@@ -1,8 +1,8 @@
 # Curated Covers
 
-We curated a few cover images to demonstrate our starter template.
+We curated a cover images to demonstrate our starter template.
 
-![](/screenshots/covers.png)
+![](/screenshots/cover.png)
 
 ```yaml
 ---
