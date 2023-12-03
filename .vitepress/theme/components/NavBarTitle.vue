@@ -19,7 +19,7 @@ const themeConfig = computed(()=>site.value.themeConfig)
       alt="Logo"
     >
     <span class="title text-primary-deep">
-      <span class="font-600">Sli</span><span class="font-normal">dev</span>
+      <span class="font-600">Koli</span><span class="font-normal">bry</span>
     </span>
   </a>
 </template>

@@ -8,7 +8,7 @@ When working with WYSIWYG editors, it is easy to get distracted by the styling o
 
 ## Kolibry
 
-![](/screenshots/cover.png) ![Alt text]
+![](/screenshots/cover.png)
 
 Here are a few of the coolest features of Kolibry:
 
